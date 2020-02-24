@@ -319,8 +319,6 @@ ul {
 }
 
 img {
-    max-height: 20rem;
-    max-width: 20rem;
     padding: 0 1rem;
 }
 
@@ -333,6 +331,20 @@ img {
 .blog img {
     max-width: 12rem;
     max-height: inherit;
+}
+
+.septa img,
+.vyb img {
+    max-width: 25rem;
+    max-height: inherit;
+}
+
+.devin img {
+    max-height: 30rem;
+    max-width: 30rem;
+    float: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 /*@media screen and (max-width: 800px) {
