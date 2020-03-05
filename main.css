@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
     font-size: 16px;
-    text-align: justify;
+    text-align: left;
 }
 
 *,
@@ -11,10 +11,6 @@ html {
 }
 
 .container {
-    width: 90%;
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -167,7 +163,7 @@ main .container {
 
 main .metaBottom {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     margin-top: 8px;
 }
@@ -183,6 +179,7 @@ p {
     margin-bottom: 16px;
     max-width: 416px;
     display: block;
+    font-family: 'Open Sans', sans-serif;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -225,45 +222,12 @@ h1 {
     justify-content: center;
 }
 
-#about main {
-    margin-top: 8vh;
-}
-
-#about .container {
-    padding-left: 0%;
-    padding-right: 0%;
-    margin: 0 auto;
-}
-
-#about section {
-    margin-bottom: 80px;
-}
-
-#about .titleGroup {
-    margin-bottom: 24px;
-}
-
-#about .titleGroup h1 {
-    margin-bottom: 4px;
-}
 
 main .container {
     position: relative;
 }
 
-#about main li {
-    max-width: 640px;
-    line-height: 1;
-    color: #535353;
-    font-size: 1.6rem;
-    margin-bottom: 16px;
-}
 
-#about main p {
-    max-width: 640px;
-    line-height: ;
-    color: #535353;
-}
 
 #experience h4,
 h5 {
@@ -363,7 +327,30 @@ img {
     }
 }
 
+@media screen and (max-width: 600px) {
+
+    .septa img,
+    .vyb img {
+        margin-left: 7rem
+    }
+}
+
 .skillsComment a:link {
     text-transform: none;
     color: #535353;
+}
+
+.metaBottom p {
+    justify-content: center;
+    max-width: none;
+    margin: 2rem 2rem;
+}
+
+.me {
+    margin: auto;
+    text-align: left;
+}
+
+.container p {
+    max-width: 850px;
 }
