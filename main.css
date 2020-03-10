@@ -223,8 +223,9 @@ h1 {
 }
 
 
-main .container {
-    position: relative;
+main .container p {
+    /*    margin: auto;*/
+    max-width: 800px;
 }
 
 
@@ -262,6 +263,7 @@ ul {
 .codeSkills,
 .softwareSkills h3 {
     font-size: 16px;
+
 }
 
 @media all and (min-width: 960px) {
@@ -335,22 +337,27 @@ img {
     }
 }
 
-.skillsComment a:link {
-    text-transform: none;
-    color: #535353;
-}
+@media screen and (max-width: 600px) {
+    .devin img {
+        margin-left: 3rem;
+    }
 
-.metaBottom p {
-    justify-content: center;
-    max-width: none;
-    margin: 2rem 2rem;
-}
+    .skillsComment a:link {
+        text-transform: none;
+        color: #535353;
+    }
 
-.me {
-    margin: auto;
-    text-align: left;
-}
+    .metaBottom p {
+        justify-content: center;
+        max-width: none;
+        margin: 2rem 2rem;
+    }
 
-.container p {
-    max-width: 850px;
-}
+    .me p {
+        text-align: left;
+        max-width: 850px;
+    }
+
+    .container p {
+        max-width: 850px;
+    }
