@@ -16,7 +16,7 @@ html {
 
 body {
     font-size: 1.4em;
-    line-height: 1.6;
+    line-height: 1.5;
     font-weight: 300;
 }
 
@@ -174,10 +174,10 @@ main {
 
 p {
     font-size: 1.4rem;
+    max-width: 850px;
     color: #535353;
-    line-height: 1.8;
+    line-height: 1.5;
     margin-bottom: 16px;
-    max-width: 416px;
     display: block;
     font-family: 'Open Sans', sans-serif;
     margin-block-start: 1em;
@@ -308,7 +308,6 @@ img {
 .devin img {
     max-height: 30rem;
     max-width: 30rem;
-    float: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -347,17 +346,7 @@ img {
         color: #535353;
     }
 
-    .metaBottom p {
-        justify-content: center;
-        max-width: none;
-        margin: 2rem 2rem;
-    }
-
     .me p {
         text-align: left;
-        max-width: 850px;
-    }
-
-    .container p {
         max-width: 850px;
     }
