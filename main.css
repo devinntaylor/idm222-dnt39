@@ -83,7 +83,7 @@ header h1 {
 
 h1 {
     color: #212121;
-    line-height: 1.4;
+    line-height: 1.5;
     font-weight: 400;
     font: inherit;
     vertical-align: baseline;
@@ -200,12 +200,6 @@ article {
     vertical-align: baseline;
 }
 
-#index main h1 {
-    top: -22px;
-    position: relative;
-    margin-bottom: 4px;
-}
-
 h1 {
     font-size: 2.6rem;
     font: inherit;
@@ -291,24 +285,31 @@ img {
 .pizza img {
     max-height: 25rem;
     max-width: 50rem;
+    display: inline-block;
+    margin: auto;
 }
 
 
 .blog img {
     max-width: 12rem;
     max-height: inherit;
+    display: inline-block;
+    margin: auto;
 }
 
 .septa img,
 .vyb img {
     max-width: 25rem;
     max-height: inherit;
+    display: inline-block;
+    margin: auto;
 }
 
 .devin img {
+    display: block;
+    margin: auto;
     max-height: 30rem;
     max-width: 30rem;
-    padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
@@ -341,12 +342,9 @@ img {
         margin-left: 3rem;
     }
 
-    .skillsComment a:link {
-        text-transform: none;
-        color: #535353;
-    }
-
     .me p {
         text-align: left;
         max-width: 850px;
+        margin-top: 0;
+
     }
